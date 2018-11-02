@@ -1,0 +1,30 @@
+/**
+ * 设备模式，结合es-helper device使用
+ */
+@mixin client-mobile(){
+    @at-root html[data-client-type="mobile"] &{
+        @content
+    }
+}
+@mixin client-pc(){
+    @at-root html[data-client-type="pc"] &{
+        @content
+    }
+}
+@mixin os-ios(){
+    @at-root html[data-client-os="IOS"] &{
+        @content
+    }
+}
+@mixin os-android(){
+    @at-root html[data-client-os="Android"] &{
+        @content
+    }
+}
+@mixin lang($lang){
+    @at-root html[data-lang="#{$lang}"] &{
+        @content
+    }
+}
+
+

@@ -1,0 +1,24 @@
+{
+  "name": "@megmore/scss-helper",
+  "version": "0.0.1",
+  "description": "scss常用mixin function variables 适配方案合集,配合es-treasure的device属性实现各种适配",
+  "main": "import.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megmore/scss-helper.git"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "nocoolyoyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megmore/scss-helper/issues"
+  },
+  "homepage": "https://github.com/megmore/scss-helper#readme"
+}
+
