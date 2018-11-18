@@ -1,5 +1,9 @@
-@import "mixins/clear";
-@import "mixins/device";
-@import "mixins/ellipsis";
-@import "mixins/rtl";
-@import "mixins/scroller";
+@import "variable/elevation";
+@import "variable/palette";
+
+@import "mixin/clear";
+@import "mixin/device";
+@import "mixin/ellipsis";
+@import "mixin/rtl";
+@import "mixin/scroller";
+@import "mixin/size";
